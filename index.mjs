@@ -12,6 +12,7 @@ export default function eslintPlugin(options = {}) {
   options.exclude = options.exclude
     ? [...options.exclude, '**/node_modules/**']
     : ['**/node_modules/**']
+  options.formatter = options.formatter || 'stylish'
   let worker // Don't initialize worker for builds
   const errors = []
   let filter
