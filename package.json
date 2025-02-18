@@ -1,0 +1,19 @@
+{
+  "name": "@florenza/vite-eslint-plugin",
+  "version": "1.0.0",
+  "description": "vite 打包校验eslint规则",
+  "main": "index.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florenza",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "@rollup/pluginutils": "^5.1.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
